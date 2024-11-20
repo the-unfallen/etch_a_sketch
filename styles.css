@@ -1,0 +1,67 @@
+html,body {
+    padding: 0;
+    margin: 0;
+}
+
+#big_box {
+    display: flex;
+    width: 100%;
+    padding: 24px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#container {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    border: 4px solid blue;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-left: 120px;
+}
+
+.item {
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+#utilities {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid blue;
+    padding: 60px;
+    gap: 48px;
+    align-items: center;
+}
+
+#etch {
+    font-size: 36px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  button {
+    color: white;
+    background-color: blue;
+    padding: 8px 16px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 18px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Merriweather", serif;
+}
